@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Registro</title>
+    <script src="app/Index.js"></script>
+</head>
+<body>        
+    <div name="formulario-inicial" id="form" class="formularios">
+      
+        <!--campo de entrada, id=IDENTICAÇÃO ÚNICA NA HORA QUE FOR USAR O JAVASCRIPT-->
+        <!--campo de entrada placeholder = VAI DEIXAR O TEXTO DENTRO DO BOX QUE VOCE UTILIZAR-->
+        <!--class = CLASSE NA QUAL A IDENTICAÇÃO ÚNICA VAI SER INSERIDA -->
+        <input id="nome" placeholder="Nome" class="entrada" value="" />       
+        <input id="idade" placeholder="Idade" class="entrada" />
+        <input id ="datadenascimento" type="date" class="entrada" /><br>
+        <input id ="nomedopai" placeholder="Nome do Pai" class="entrada"/>
+        <input id ="nomedamae" placeholder="Nome da Mãe" class="entrada" /><br>
+        <input type="button" onclick="onClickSalvar()" value="Salvar"/>
+        <!--<input type="checkbox" /><br>
+        <input type="color" /><br>-->
+    </div>
+    <div id="dadosSalvos">  
+    </div>
+</body>
+</html>
+
+<!--data de nascimento, naturalidade, nome do pai, nome da mãe!-->
